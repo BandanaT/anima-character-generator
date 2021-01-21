@@ -160,7 +160,7 @@
         <option value="Spirit, Undead">Spirit, Undead</option>
       </select><p class="display form-control-static"> </p></div>
     </div>
-    
+
     <div class="form-group">
       <div class="col-xs-12">
         <button id="proceed" type="button" class="btn btn-primary">Proceed</button>
@@ -168,7 +168,7 @@
         <button id="load_button" type="button" class="btn btn-default">Load</button>
       </div>
     </div>
-    
+
     <div id="attributes" class="row" style="display: none;">
       <div class="col-xs-12 col-sm-6 col-md-12">
         <div class="form-group">
@@ -245,7 +245,7 @@
         <button id="choose_essential_abilities" type="button" class="btn btn-default">Choose Essential Abilities</button>
       </div>
     </div>
-    
+
     <div id="essential_abilities" style="display: none;">
       <div class="panel panel-default">
         <div class="panel-heading"><strong>Essential Abilities</strong> <span id="ea_dp">(<span id="dp_left_for_ea"> </span> DP remaining out of <span id="dp_total_for_ea"> </span>)</span></div>
@@ -260,7 +260,7 @@
 
       <div><button id="choose_characteristics" type="button" class="btn btn-default">Choose Characteristics</button></div>
     </div>
-    
+
     <div id="characteristics" class="row" style="display: none;">
       <div class="row col-xs-12 col-sm-7 col-md-12">
       <div id="physical" class="col-xs-6">
@@ -268,17 +268,17 @@
         <label for="STR" class="control-label col-xs-3 col-sm-4">STR</label>
         <div class="col-xs-9 col-sm-8"><div id="STR" class="physical characteristic spinner"> </div><p class="display form-control-static"> </p></div>
         </div>
-    
+
         <div class="form-group">
         <label for="DEX" class="control-label col-xs-3 col-sm-4">DEX</label>
         <div class="col-xs-9 col-sm-8"><div id="DEX" class="physical characteristic spinner"> </div><p class="display form-control-static"> </p></div>
         </div>
-    
+
         <div class="form-group">
         <label for="AGI" class="control-label col-xs-3 col-sm-4">AGI</label>
         <div class="col-xs-9 col-sm-8"><div id="AGI" class="physical characteristic spinner"> </div><p class="display form-control-static"> </p></div>
         </div>
-    
+
         <div class="form-group">
         <label for="CON" class="control-label col-xs-3 col-sm-4">CON</label>
         <div class="col-xs-9 col-sm-8"><div id="CON" class="physical characteristic spinner"> </div><p class="display form-control-static"> </p></div>
@@ -290,17 +290,17 @@
         <label for="INT" class="control-label col-xs-3 col-sm-4">INT</label>
         <div class="col-xs-9 col-sm-8"><div id="INT" class="spiritual characteristic spinner"> </div><p class="display form-control-static"> </p></div>
         </div>
-    
+
         <div class="form-group">
         <label for="POW" class="control-label col-xs-3 col-sm-4">POW</label>
         <div class="col-xs-9 col-sm-8"><div id="POW" class="spiritual characteristic spinner"> </div><p class="display form-control-static"> </p></div>
         </div>
-    
+
         <div class="form-group">
         <label for="WP" class="control-label col-xs-3 col-sm-4">WP</label>
         <div class="col-xs-9 col-sm-8"><div id="WP" class="spiritual characteristic spinner"> </div><p class="display form-control-static"> </p></div>
         </div>
-    
+
         <div class="form-group">
         <label for="PER" class="control-label col-xs-3 col-sm-4">PER</label>
         <div class="col-xs-9 col-sm-8"><div id="PER" class="spiritual characteristic spinner"> </div><p class="display form-control-static"> </p></div>
@@ -408,7 +408,7 @@
   </div>
 
   <div class="col-xs-12 col-md-7 col-lg-8">
-  
+
   <div id="levels" style="display: none;"> </div>
   </div>
 
@@ -1067,6 +1067,16 @@
     </div>
   </div>
 </div>
+
+<div id="like_button_container"></div>
+
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Load our React component. -->
+<script src="js/like_button.js"></script>
 
 <script data-main="js/main" src="js/libs/require.js"></script>
 
