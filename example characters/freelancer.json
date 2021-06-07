@@ -1,0 +1,28 @@
+{
+    "Advantages": {
+      "Learning": 3
+    },
+    "Disadvantages": {},
+    "Race": "Human",
+    "XP": 0,
+    "levels": [
+      {
+        "Class": "Freelancer",
+        "DP": {
+          "Attack": 75
+        }
+      }
+    ],
+    "Type": "Human",
+    "STR": 5,
+    "DEX": 5,
+    "AGI": 5,
+    "CON": 5,
+    "INT": 5,
+    "POW": 5,
+    "WP": 5,
+    "PER": 5,
+    "Appearance": 5,
+    "Name": "",
+    "Gender": "Male"
+  }

@@ -6,12 +6,10 @@
   <meta name="keywords" content="anima, character generator" />
   <meta name="description" content="Generate or update a character for the Anima: Beyond Fantasy role-playing game" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!--<link href="images/favicon.png" rel="icon" type="image/png" />
-  <link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />-->
+  
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" />
   <link rel="stylesheet" href="css/fuelux.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css"/>
 </head>
 <body>
 <form id="main_form" action="javascript:void(0);" role="form" class="form-horizontal">
@@ -137,13 +135,16 @@
   <div class="unarmed-advantages-block"> </div>
 
   <div class="row">
-    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Size</strong>&nbsp;<span class="Size"> </span></div>
-    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Regeneration</strong>&nbsp;<span class="Regeneration"> </span></div>
-    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Movement Value</strong>&nbsp;<span class="MV"> </span>&thinsp;&thinsp;</div>
-    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Fatigue</strong>&nbsp;<span class="fatigue"> </span>&thinsp;&thinsp;</div>
+    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Size:</strong>&nbsp;<span class="Size"> </span></div>
+    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Regeneration:</strong>&nbsp;<span class="Regeneration"> </span></div>
+    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Movement Value:</strong>&nbsp;<span class="MV"> </span>&thinsp;&thinsp;</div>
+    <div class="col-xs-6 col-sm-3 col-md-2"><strong>Fatigue:</strong>&nbsp;<span class="fatigue"> </span>&thinsp;&thinsp;</div>
   </div>
 
-  <hr />
+  <hr /> <!-- Break in the page  -->  
+    <!-- Above is the character sheet result 
+    Below is the generation -->
+   
 
   <div class="row">
   <div class="col-xs-12 col-md-5 col-lg-4">
@@ -163,7 +164,7 @@
     
     <div class="form-group">
       <div class="col-xs-12">
-        <button id="proceed" type="button" class="btn btn-primary">Proceed</button>
+        <button id="proceed" type="button" class="btn btn-primary">Proceed</button>  <!-- colours and styles defined in bootstrap.min.cs, now can we override this? -->
         <button id="save_button" type="button" class="btn btn-default">Save</button>
         <button id="load_button" type="button" class="btn btn-default">Load</button>
       </div>
